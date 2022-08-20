@@ -33,7 +33,14 @@ delete cutEmployees.name;
      return employee;
     
  }
-function destructivelyDeleteFromEmployeeByKey(employee, key) {
-    const destructivelyDelete = destructivelyDeleteFromEmployeeByKey(employee, "roy");
-    destructivelyDelete;
-   }
+// function destructivelyDeleteFromEmployeeByKey(employee, key) {
+//     const destructivelyDelete = destructivelyDeleteFromEmployeeByKey(employee, "roy");
+//     destructivelyDelete;
+// }
+   function destructivelyDeleteFromEmployeeByKey(employee,key) {
+
+delete employee[key]
+
+return employee
+
+}
